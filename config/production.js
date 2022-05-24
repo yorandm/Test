@@ -5,7 +5,7 @@ module.exports = {
     },
     cors: {
         origins: ['http://yorandemunter.be'],
-        maxAge: 3 * 60 * 60, // 3h in seconds
+        maxAge: 3 * 60 * 60, // 3h in seconds d
     },
     database: {
         client: 'mysql2',
