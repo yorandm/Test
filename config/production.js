@@ -4,7 +4,7 @@ module.exports = {
         disabled: false,
     },
     cors: {
-        origins: ['https://yorandemunter.be'],
+        origins: ['https://yorandemunter.be', 'https://fluvius.yorandemunter.be'],
         maxAge: 3 * 60 * 60, // 3h in seconds d
     },
     database: {
